@@ -100,7 +100,7 @@ export default function ChapterReader({
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
             <div>
-              <CardTitle className="text-glow">{title}</CardTitle>
+              <CardTitle className="text-foreground">{title}</CardTitle>
               <p className="text-sm text-foreground/60 mt-1">
                 {Math.round(scrollProgress)}% read
               </p>

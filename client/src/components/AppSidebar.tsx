@@ -27,7 +27,7 @@ export default function AppSidebar({ isOpen, onClose }: AppSidebarProps) {
       {/* Sidebar */}
       <div className="fixed left-0 top-0 z-50 h-screen w-64 bg-card border-r border-mystical md:hidden">
         <div className="flex items-center justify-between p-4 border-b border-mystical">
-          <h2 className="font-semibold text-glow">Menu</h2>
+          <h2 className="font-semibold text-foreground">Menu</h2>
           <button
             onClick={onClose}
             className="p-1 hover:bg-accent/10 rounded-lg transition-colors"

@@ -50,7 +50,7 @@ export default function SettingsPage() {
     <MainLayout>
       <div className="max-w-2xl mx-auto space-y-8">
         <div>
-          <h1 className="text-4xl font-bold text-glow mb-2">Settings</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-2">Settings</h1>
           <p className="text-foreground/70">
             Configure your AI writing assistant and preferences
           </p>

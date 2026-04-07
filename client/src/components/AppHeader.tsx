@@ -31,7 +31,7 @@ export default function AppHeader({ onMenuClick }: AppHeaderProps) {
           <div className="relative">
             <Sparkles className="w-6 h-6 text-accent animate-pulse-glow" />
           </div>
-          <h1 className="text-xl font-bold text-glow bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h1 className="text-xl font-bold text-foreground bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Novel Writer
           </h1>
         </div>

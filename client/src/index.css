@@ -175,16 +175,16 @@
     }
   }
 
-  /* Mystical glow effects */
-  .glow-primary {
+  /* Mystical shadow effects */
+  .shadow-mystical {
     box-shadow: 0 0 20px rgba(139, 92, 246, 0.4), 0 0 40px rgba(139, 92, 246, 0.2);
   }
 
-  .glow-accent {
+  .shadow-accent {
     box-shadow: 0 0 20px rgba(168, 85, 247, 0.4), 0 0 40px rgba(168, 85, 247, 0.2);
   }
 
-  .glow-gold {
+  .shadow-gold {
     box-shadow: 0 0 20px rgba(217, 119, 6, 0.4), 0 0 40px rgba(217, 119, 6, 0.2);
   }
 
@@ -200,7 +200,6 @@
   /* Mystical borders */
   .border-mystical {
     @apply border border-purple-900/40;
-    box-shadow: inset 0 0 10px rgba(139, 92, 246, 0.1);
   }
 
   .border-gold {
@@ -212,7 +211,8 @@
   .btn-mystical {
     @apply relative px-6 py-2 rounded-lg font-semibold transition-all duration-300;
     background: linear-gradient(135deg, rgba(139, 92, 246, 0.8) 0%, rgba(168, 85, 247, 0.6) 100%);
-    @apply text-white shadow-lg hover:shadow-xl glow-primary;
+    @apply text-white shadow-lg hover:shadow-xl;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.4), 0 0 40px rgba(139, 92, 246, 0.2);
   }
 
   .btn-mystical:hover {
@@ -222,7 +222,7 @@
 
   /* Card with mystical border */
   .card-mystical {
-    @apply rounded-xl border-mystical bg-card/50 backdrop-blur-sm p-6;
+    @apply rounded-xl border border-purple-900/40 bg-card/50 backdrop-blur-sm p-6;
   }
 
   /* Text glow */

@@ -68,7 +68,7 @@ export default function NovelCreate() {
     <MainLayout>
       <div className="max-w-2xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-glow mb-2">Create New Novel</h1>
+          <h1 className="text-4xl font-bold text-foreground mb-2">Create New Novel</h1>
           <p className="text-foreground/70">
             Start your creative journey by defining your novel's foundation
           </p>

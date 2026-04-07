@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto px-4 text-center">
           <div className="mb-8">
             <Sparkles className="w-16 h-16 mx-auto text-accent animate-pulse-glow mb-4" />
-            <h1 className="text-5xl font-bold mb-4 text-glow">
+            <h1 className="text-5xl font-bold mb-4 text-foreground">
               Novel Writer AI
             </h1>
             <p className="text-xl text-foreground/70 mb-8">
@@ -37,7 +37,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-            <Card className="card-mystical border-mystical hover:glow-accent transition-all">
+            <Card className="card-mystical border-mystical hover:shadow-lg transition-all">
               <CardHeader>
                 <Wand2 className="w-8 h-8 text-accent mb-2" />
                 <CardTitle>Master Concepts</CardTitle>
@@ -50,7 +50,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="card-mystical border-mystical hover:glow-accent transition-all">
+            <Card className="card-mystical border-mystical hover:shadow-lg transition-all">
               <CardHeader>
                 <Users className="w-8 h-8 text-accent mb-2" />
                 <CardTitle>Character Manager</CardTitle>
@@ -63,7 +63,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="card-mystical border-mystical hover:glow-accent transition-all">
+            <Card className="card-mystical border-mystical hover:shadow-lg transition-all">
               <CardHeader>
                 <Zap className="w-8 h-8 text-accent mb-2" />
                 <CardTitle>Chapter Generation</CardTitle>
@@ -89,7 +89,7 @@ export default function HomePage() {
     <MainLayout>
       <div className="space-y-8">
         <div>
-          <h1 className="text-4xl font-bold text-glow mb-2">
+          <h1 className="text-4xl font-bold text-foreground mb-2">
             Welcome back, {user?.name}
           </h1>
           <p className="text-foreground/70">
@@ -128,7 +128,7 @@ export default function HomePage() {
             {novels.map((novel: Novel) => (
               <Card
                 key={novel.id}
-                className="card-mystical cursor-pointer hover:glow-accent transition-all"
+                className="card-mystical cursor-pointer hover:shadow-lg transition-all"
                 onClick={() => navigate(`/novel/${novel.id}`)}
               >
                 <CardHeader>
